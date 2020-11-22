@@ -1,4 +1,15 @@
-# ZSH Aliases
+# Usage
+```sh
+# copy commands to .zsh_aliases
+vi ~/.zsh_aliases
+
+# add alias file into .zshrc
+vi ~/.zshrc
+source ~/.zsh_aliases
+```
+
+
+# Commands
 
 
 ## Navigation
