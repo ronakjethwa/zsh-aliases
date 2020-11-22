@@ -48,8 +48,8 @@ alias show="ls -ltr"
 
 ## NPM
 ```sh
-alias node_nuke="rm -rf package-lock.json && rm -rf node_modules"
-alias node_restore="rm -rf package-lock.json && rm -rf node_modules && npm install"
+alias nukenode="rm -rf package-lock.json && rm -rf node_modules"
+alias restorenode="rm -rf package-lock.json && rm -rf node_modules && npm install"
 ```
 
 ## Git
