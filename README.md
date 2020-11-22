@@ -13,6 +13,23 @@ alias .....="cd ../../../.."
 alias show="ls -ltr"
 ```
 
+## Directory
+```sh
+history=omz_history
+l='ls -lah'
+la='ls -lAh'
+ll='ls -lh'
+ls='ls -G'
+lsa='ls -lah'
+md='mkdir -p'
+```
+
+## NPM
+```sh
+alias node_nuke="rm -rf package-lock.json && rm -rf node_modules"
+alias node_restore="rm -rf package-lock.json && rm -rf node_modules && npm install"
+```
+
 ## Git
 ```sh
 alias g=git
@@ -184,10 +201,4 @@ alias gupav='git pull --rebase --autostash -v'
 alias gupv='git pull --rebase -v'
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify --no-gpg-sign -m "--wip-- [skip ci]"
-```
-
-## NPM
-```sh
-alias node_nuke="rm -rf package-lock.json && rm -rf node_modules"
-alias node_restore="rm -rf package-lock.json && rm -rf node_modules && npm install"
 ```
