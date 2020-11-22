@@ -43,7 +43,7 @@ alias ll='ls -lh'
 alias ls='ls -G'
 alias lsa='ls -lah'
 alias md='mkdir -p'
-alias show="ls -ltr"
+alias lll="ls -ltr"
 ```
 
 ## NPM
