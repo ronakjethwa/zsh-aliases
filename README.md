@@ -10,18 +10,18 @@ alias cd..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias show="ls -ltr"
 ```
 
 ## Directory
 ```sh
-history=omz_history
-l='ls -lah'
-la='ls -lAh'
-ll='ls -lh'
-ls='ls -G'
-lsa='ls -lah'
-md='mkdir -p'
+alias history=omz_history
+alias l='ls -lah'
+alias la='ls -lAh'
+alias ll='ls -lh'
+alias ls='ls -G'
+alias lsa='ls -lah'
+alias md='mkdir -p'
+alias show="ls -ltr"
 ```
 
 ## NPM
